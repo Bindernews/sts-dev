@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/bindernews/sts-dev/schemas/RelicStrings.schema.json",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "NAME": { "type": "string" },
+      "FLAVOR": { "type": "string" },
+      "DESCRIPTIONS": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    }
+  }
+}
